@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  color: MyString
+  cartoon: MyString
+  food: MyString
+  candy: MyString
+  animal: MyString
+
+two:
+  name: MyString
+  color: MyString
+  cartoon: MyString
+  food: MyString
+  candy: MyString
+  animal: MyString

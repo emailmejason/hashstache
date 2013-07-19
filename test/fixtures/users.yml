@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_name: MyString
+  user_age: MyString
+  user_color: MyString
+  user_cartoon: MyString
+  user_toy: MyString
+  bf_name: MyString
+  bf_age: MyString
+  bf_color: MyString
+  bf_cartoon: MyString
+  bf_toy: MyString
+  f_name: MyString
+  f_age: MyString
+  f_color: MyString
+  f_cartoon: MyString
+  f_toy: MyString
+
+two:
+  user_name: MyString
+  user_age: MyString
+  user_color: MyString
+  user_cartoon: MyString
+  user_toy: MyString
+  bf_name: MyString
+  bf_age: MyString
+  bf_color: MyString
+  bf_cartoon: MyString
+  bf_toy: MyString
+  f_name: MyString
+  f_age: MyString
+  f_color: MyString
+  f_cartoon: MyString
+  f_toy: MyString

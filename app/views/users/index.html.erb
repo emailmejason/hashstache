@@ -1,0 +1,51 @@
+<h1>Listing users</h1>
+
+<table>
+  <tr>
+    <th>User name</th>
+    <th>User age</th>
+    <th>User color</th>
+    <th>User cartoon</th>
+    <th>User toy</th>
+    <th>Bf name</th>
+    <th>Bf age</th>
+    <th>Bf color</th>
+    <th>Bf cartoon</th>
+    <th>Bf toy</th>
+    <th>F name</th>
+    <th>F age</th>
+    <th>F color</th>
+    <th>F cartoon</th>
+    <th>F toy</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%= user.user_name %></td>
+    <td><%= user.user_age %></td>
+    <td><%= user.user_color %></td>
+    <td><%= user.user_cartoon %></td>
+    <td><%= user.user_toy %></td>
+    <td><%= user.bf_name %></td>
+    <td><%= user.bf_age %></td>
+    <td><%= user.bf_color %></td>
+    <td><%= user.bf_cartoon %></td>
+    <td><%= user.bf_toy %></td>
+    <td><%= user.f_name %></td>
+    <td><%= user.f_age %></td>
+    <td><%= user.f_color %></td>
+    <td><%= user.f_cartoon %></td>
+    <td><%= user.f_toy %></td>
+    <td><%= link_to 'Show', user %></td>
+    <td><%= link_to 'Edit', edit_user_path(user) %></td>
+    <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New User', new_user_path %>

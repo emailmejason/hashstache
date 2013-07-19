@@ -1,4 +1,11 @@
 Solo::Application.routes.draw do
+  resources :users
+
+
+  resources :answers
+
+  get "/page2"=> "users#page2", :as => "page2"
+  get "/comments/static" =>"comments#static", :as =>"static"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +55,7 @@ Solo::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'users#index'
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @answer.name %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%= @answer.color %>
+</p>
+
+<p>
+  <b>Cartoon:</b>
+  <%= @answer.cartoon %>
+</p>
+
+<p>
+  <b>Food:</b>
+  <%= @answer.food %>
+</p>
+
+<p>
+  <b>Candy:</b>
+  <%= @answer.candy %>
+</p>
+
+<p>
+  <b>Animal:</b>
+  <%= @answer.animal %>
+</p>
+
+
+<%= link_to 'Edit', edit_answer_path(@answer) %> |
+<%= link_to 'Back', answers_path %>
