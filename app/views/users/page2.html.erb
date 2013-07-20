@@ -19,14 +19,23 @@
 
     <div id= "backgrounddiv">
 
-      <div class="bracket1">{</div>
-      <div id="tag"><img src="app/assets/images/tag.png"/></div>
+
+
+      <div class="bracket draggable" data-question-id="1">{</div>
+      <!-- key -->
+      <div id= "key"><%= image_tag "key4.png" %></div>
+      <!-- rocket -->
       <div class="rocket">=></div>
-      <div id= "key"><img src="app/assets/images/key4.png"/></div>
-      <div class="bracket2" id="draggable">}</div>
-      <div id= "droppable" class="drop1">drop1</div>
-      <div id= "droppable" class="drop2">drop2</div>
+      <!-- value -->
+      <div id="tag"><%= image_tag "tag.png" %></div>
+
+      <div class="bracket draggable" data-question-id="2">}</div>
+
+
     </div>
+    <div class="drop1 droppable" data-question-id="1">drop1</div>
+    <div class="drop2 droppable" data-question-id="2">drop2</div>
+    <div id="tag"><%= image_tag "octocat.png" %></div>
 
 
 

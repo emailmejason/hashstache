@@ -37,8 +37,8 @@ body {
 
 
   position: absolute;
-  top:  0px;
-  bottom: 0;
+  top:  px;
+  bottom: 100px;
   left: 0;
   right: 0;
 
@@ -51,8 +51,10 @@ body {
     display: block;   margin-left: auto;   margin-right: auto;
 }
 
-.bracket1 {
-  font-style: helvetica;
+.bracket {
+  font-family: COURIER;
+  font-weight: bold;
+  color: #ec8305;
   font-size:  200px;
   display:inline-block;
   margin-bottom: 100px
@@ -60,13 +62,10 @@ body {
 
 
 
-.bracket2 {
-  font-style: helvetica;
-  font-size:  200px;
-  display:inline-block;
-}
+
 .rocket {
-  font-style: helvetica;
+  font-style: courier;
+  font-weight: bold;
   font-size:  200px;
   display:inline-block;
 }
@@ -84,6 +83,7 @@ body {
   height:300px;
   width:300px;
   font-size: 5em;
+  position: relative;
 }
 .drop2{
   background-color:red;
