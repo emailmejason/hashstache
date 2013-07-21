@@ -8,14 +8,7 @@
 
   </head>
   <body>
-    <div >drag me</div>
-    <h1>appear disappear</h1>
 
-    <div id="box">
-      <div id="text">Text</div>
-    </div>
-
-    <div id="point">Click</div>
 
     <div id= "backgrounddiv">
 
@@ -30,15 +23,35 @@
       <div id="tag"><%= image_tag "tag.png" %></div>
 
       <div class="bracket draggable" data-question-id="2">}</div>
-
-
     </div>
-    <div class="drop1 droppable" data-question-id="1">drop1</div>
-    <div class="drop2 droppable" data-question-id="2">drop2</div>
+
+    <div id="containertext">
+      <div class="drop1 droppable" data-question-id="1">
+        <div >A hash is a way to send information.
+        </div>
+      </div>
+
+
+      <div class="drop2 droppable" data-question-id="2">
+        <div id="cat"> <%= image_tag "octocat.png" %> </div>
+      </div>
+    </div>
+
+
+
+
+
     <div id="tag"><%= image_tag "octocat.png" %></div>
 
 
+    <div >drag me</div>
+    <h1>appear disappear</h1>
 
+    <div id="box">
+      <div id="text">Text</div>
+    </div>
+
+    <div id="point">Click</div>
 
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>

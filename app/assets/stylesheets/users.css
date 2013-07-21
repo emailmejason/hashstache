@@ -25,8 +25,8 @@ body {
 }
 
 #backgrounddiv{
-  width: 1100px;
-  height: 500px;
+  width: 960px;
+  height: 480px;
   line-height: 500px;
   background-color: #CCFFFA;
   border: 10px;
@@ -34,16 +34,18 @@ body {
   -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 
-
-  position: absolute;
+/*  position: absolute;
   top:  px;
-  bottom: 100px;
+  bottom: 00px;
   left: 0;
   right: 0;
 
   margin: auto;
-  text-align: center;
+  text-align: center;*/
 
   }
 }
@@ -51,6 +53,15 @@ body {
     display: block;   margin-left: auto;   margin-right: auto;
 }
 
+#containertext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 500px;
+  line-height: 500px;
+  background-color: ;
+  display: table;
+}
 .bracket {
   font-family: COURIER;
   font-weight: bold;
@@ -58,15 +69,18 @@ body {
   font-size:  200px;
   display:inline-block;
   margin-bottom: 100px
+
 }
 
-
+#cat{
+  margin-bottom: 200px;
+}
 
 
 .rocket {
   font-style: courier;
   font-weight: bold;
-  font-size:  200px;
+  font-size:  120px;
   display:inline-block;
 }
 
@@ -79,17 +93,33 @@ body {
 }
 
 .drop1{
-  background-color:green;
-  height:300px;
+  background-color:#e6e6e6;
+  height:250px;
+  width:640px;
+  font-size: 2em;
+  word-wrap: normal|break-word;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  position: relative;
+  float: left;
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  margin-top: 20px}
+
+.drop2{
+  background-color:#cccccc;
+  height:250px;
   width:300px;
   font-size: 5em;
   position: relative;
-}
-.drop2{
-  background-color:red;
-  height:300px;
-  width:300px;
-  font-size: 5em;
+  float: left;
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 
