@@ -1,13 +1,40 @@
 $(document).ready(function(){
 
-  var hide = function(){
-    $("#text").addClass("hide");
+  var showkey = function(){
+    $("#key").removeClass("inv_img");
+    $("#text_key").removeClass("inv");
   };
 
-  $("#point").on("click", hide);
+  $("#cat").on("click", showkey);
 
 
+  var showtag = function(){
+    $("#tag").removeClass("inv_img");
+    $("#text_tag").removeClass("inv");
+    $("#text_key").addClass("inv");
 
+  };
+
+  $("#key").on("click", showtag);
+
+  var showrocket = function(){
+    $("#rocket").removeClass("inv_img");
+    $("#text_rocket").removeClass("inv");
+    $("#text_tag").addClass("inv");
+
+  };
+
+  $("#tag").on("click", showrocket);
+
+
+  var showbracket = function(){
+    $(".bracket").removeClass("inv_img");
+    $("#text_bracket").removeClass("inv");
+    $("#text_rocket").addClass("inv");
+
+  };
+
+  $("#rocket").on("click", showbracket);
 
 
 // ________________
@@ -26,18 +53,12 @@ $(document).ready(function(){
           alert("yes");
           correct.push(1);
           alert(correct)
-     if (correct.length==2){
-         alert("congratulations")
-       } }
-
+      }
   });
-  if (correct.length==2){
-      alert("congratulations")
-    }
+
   $("div.draggable").draggable({
       revert: "invalid"
   });
-
 
 
 });

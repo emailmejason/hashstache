@@ -10,29 +10,38 @@
   <body>
 
 
-    <div id= "backgrounddiv">
+    <div id= "main">
 
 
 
-      <div class="bracket draggable" data-question-id="1">{</div>
-      <!-- key -->
-      <div id= "key"><%= image_tag "key.png" %></div>
-      <!-- rocket -->
-      <div class="rocket">=></div>
-      <!-- value -->
-      <div id="tag"><%= image_tag "tag1.png" %></div>
+      <div id= "bracket" class="bracket inv_img">{</div>
+      <div id= "key" class="inv_img"><%= image_tag "key.png" %></div>
+      <div id= "rocket" class="rocket inv_img">=></div>
+      <div id="tag" class="inv_img"><%= image_tag "tag1.png" %></div>
+      <div id= "bracket" class="bracket inv_img">}</div>
 
-      <div class="bracket draggable" data-question-id="2">}</div>
     </div>
 
     <div id="containertext">
-      <div class="drop1 droppable" data-question-id="1">
-        <div >A hash is a way to send information.
+      <div class="lefttext" data-question-id="1">
+        <div id="text_key"class="inv">What is a key?
+          A key is a symbol that represents an object.  The key always sits on the left.
         </div>
+        <div id="text_tag" class="inv">What is a value?
+          A value is a meaning associated with the key.  The value always sits on the right.
+        </div>
+        <div id="text_rocket" class="inv" >What is a hash rocket?
+          Simple. A hash rocket is exactly what it looks like. It is made up an equal sign and a greater than sign and sits right in between the key and its value.
+        </div>
+        <div id="text_bracket" class="inv" >What are curly brackets?
+          Curley brackets guard the key/value pair and complete the hash.  Without it, the key/value pair might get lost and wonder around the universe.  The curly brackets closes off the key/value pair on either side.  Think of curly brackets like a fence, keeping the key/value pair safe within.
+        </div>
+        <div class="inv" >A hash is a way to send information.</div>
+        <div class="inv" >A hash is a way to send information.</div>
       </div>
 
 
-      <div class="drop2 droppable" data-question-id="2">
+      <div class="rightcat" data-question-id="2">
         <div id="cat"> <%= image_tag "octocat.png" %> </div>
       </div>
     </div>
@@ -41,7 +50,7 @@
 
 
 
-    <div id="tag"><%= image_tag "octocat.png" %></div>
+
 
 
     <div >drag me</div>

@@ -2,41 +2,19 @@ body {
   background-color:white;
 }
 
-#box {
-  background-color:white;
-  height:100px;
-  width:200px;
-  font-size: 5em;
-
-}
-
-#text {
-  color: #3E8988;
-}
-
-.hide{
-  visibility:hidden;
-}
-
-#point {
-  height:50px;
-  width:100px;
-  background-color:blue;
-}
-
-#backgrounddiv{
+#main{
   width: 960px;
   height: 480px;
-  line-height: 500px;
+  line-height: 480px;
   background-color: #CCFFFA;
-  border: 10px;
-  border-color: black;
+  text-align: middle;
   -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+
 
 /*  position: absolute;
   top:  px;
@@ -48,9 +26,46 @@ body {
   text-align: center;*/
 
   }
+
+
+#bracket {
+  font-family: COURIER;
+  font-weight: bold;
+  color: #ec8305;
+  font-size:  200px;
+  display:inline-block;
+  margin-bottom: 100px
+  vertical-align: middle;
 }
-#background  {
-    display: block;   margin-left: auto;   margin-right: auto;
+#rocket {
+  font-style: arial;
+  font-weight: bold;
+  font-size:  90px;
+  display:inline-block;
+  margin-left: -10px;
+  margin-right: -10px;
+  vertical-align: middle;
+}
+
+#tag{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+#key{
+  display:inline-block;
+  vertical-align: middle;
+}
+#cat{
+  margin-bottom: 200px;
+}
+
+.inv_img{
+  visibility: hidden;
+}
+
+.inv{
+  display: none;
 }
 
 #containertext {
@@ -62,39 +77,9 @@ body {
   background-color: ;
   display: table;
 }
-.bracket {
-  font-family: COURIER;
-  font-weight: bold;
-  color: #ec8305;
-  font-size:  200px;
-  display:inline-block;
-  margin-bottom: 100px
-
-}
-
-#cat{
-  margin-bottom: 200px;
-}
 
 
-.rocket {
-  font-style: arial;
-  font-weight: bold;
-  font-size:  90px;
-  display:inline-block;
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-#tag{
-  display:inline-block;
-}
-
-#key{
-  display:inline-block;
-}
-
-.drop1{
+.lefttext{
   background-color:#e6e6e6;
   height:250px;
   width:640px;
@@ -110,7 +95,7 @@ body {
       border-radius: 30px;
   margin-top: 20px}
 
-.drop2{
+.rightcat{
   background-color:#cccccc;
   height:250px;
   width:300px;
