@@ -78,10 +78,12 @@ body {
 
 
 .rocket {
-  font-style: courier;
+  font-style: arial;
   font-weight: bold;
-  font-size:  120px;
+  font-size:  90px;
   display:inline-block;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 #tag{
