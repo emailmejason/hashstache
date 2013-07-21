@@ -3,6 +3,7 @@ $(document).ready(function(){
   var showkey = function(){
     $("#key").removeClass("inv_img");
     $("#text_key").removeClass("inv");
+    // $( "#text_key" ).show( "bounce", 1000 );
   };
 
   $("#cat").on("click", showkey);
@@ -10,17 +11,16 @@ $(document).ready(function(){
 
   var showtag = function(){
     $("#tag").removeClass("inv_img");
-    $("#text_tag").removeClass("inv");
     $("#text_key").addClass("inv");
-
+    $("#text_tag").removeClass("inv");
   };
 
   $("#key").on("click", showtag);
 
   var showrocket = function(){
     $("#rocket").removeClass("inv_img");
-    $("#text_rocket").removeClass("inv");
     $("#text_tag").addClass("inv");
+    $("#text_rocket").removeClass("inv");
 
   };
 
@@ -29,8 +29,8 @@ $(document).ready(function(){
 
   var showbracket = function(){
     $(".bracket").removeClass("inv_img");
-    $("#text_bracket").removeClass("inv");
     $("#text_rocket").addClass("inv");
+    $("#text_bracket").removeClass("inv");
 
   };
 

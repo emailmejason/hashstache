@@ -5,7 +5,7 @@ Solo::Application.routes.draw do
   resources :answers
 
   get "/page2"=> "users#page2", :as => "page2"
-  get "/comments/static" =>"comments#static", :as =>"static"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

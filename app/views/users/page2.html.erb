@@ -11,56 +11,46 @@
 
 
     <div id= "main">
-
-
-
-      <div id= "bracket" class="bracket inv_img">{</div>
-      <div id= "key" class="inv_img"><%= image_tag "key.png" %></div>
-      <div id= "rocket" class="rocket inv_img">=></div>
-      <div id="tag" class="inv_img"><%= image_tag "tag1.png" %></div>
-      <div id= "bracket" class="bracket inv_img">}</div>
-
+      <div id="maincontainer">
+        <div id= "bracket" class="bracket inv_img">{</div>
+        <div id= "key" class="inv_img"><%= image_tag "key.png" %></div>
+        <div id= "rocket" class="rocket inv_img">=></div>
+        <div id="tag" class="inv_img"><%= image_tag "tag1.png" %></div>
+        <div id= "bracket" class="bracket inv_img">}</div>
+      </div>
     </div>
 
     <div id="containertext">
-      <div class="lefttext" data-question-id="1">
-        <div id="text_key"class="inv">What is a key?
+      <div class="lefttext">
+        <div id="text_key"class="inv">
           A key is a symbol that represents an object.  The key always sits on the left.
         </div>
-        <div id="text_tag" class="inv">What is a value?
+        <div id="text_tag" class="inv">
           A value is a meaning associated with the key.  The value always sits on the right.
         </div>
-        <div id="text_rocket" class="inv" >What is a hash rocket?
-          Simple. A hash rocket is exactly what it looks like. It is made up an equal sign and a greater than sign and sits right in between the key and its value.
+        <div id="text_rocket" class="inv" >
+          A hash rocket is exactly what it looks like. It is made up an equal sign and a greater than sign and sits right in between the key and its value.
         </div>
-        <div id="text_bracket" class="inv" >What are curly brackets?
-          Curley brackets guard the key/value pair and complete the hash.  Without it, the key/value pair might get lost and wonder around the universe.  The curly brackets closes off the key/value pair on either side.  Think of curly brackets like a fence, keeping the key/value pair safe within.
+        <div id="text_bracket" class="inv" >
+          Curley brackets guard the key/value pairs.  Without it, the key/value pairs might get lost and wonder around the universe.  The curly brackets closes off the key/value pair on either side.
         </div>
         <div class="inv" >A hash is a way to send information.</div>
         <div class="inv" >A hash is a way to send information.</div>
       </div>
 
 
-      <div class="rightcat" data-question-id="2">
+      <div class="catbox" >
         <div id="cat"> <%= image_tag "octocat.png" %> </div>
       </div>
     </div>
 
+<div id="gamepage"> <%= link_to 'Questions', new_user_path %></div>
 
 
 
 
 
 
-
-    <div >drag me</div>
-    <h1>appear disappear</h1>
-
-    <div id="box">
-      <div id="text">Text</div>
-    </div>
-
-    <div id="point">Click</div>
 
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
