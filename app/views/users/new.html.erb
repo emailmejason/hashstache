@@ -1,16 +1,16 @@
 <div class="container2">
   <div class="big"><%= image_tag "Catquestions.png" %>
     <div class="qbubble">
-      <p class="q inv_q">  I'm Hashstachetocat. Nice to meet you.What's your name?</p>
-      <p class="q inv_q">  How old are you? I'm not sure how old I am but i'm old enough to have a mustache. </p>
-      <p class="q inv_q"> My favorite color is Creamy Coffee Brown. Like my Mustache. What's yours?</p>
-      <p class="q inv_q"> Wow that is my second favorite. What's your favorite cartoon? I love pretending that I'm a cartoon.</p>
-      <p class="q "> I like playing with my rubics cube cuz I have a huge Prefrontal Cortex. Whats your favorite toy?</p>
+      <p class="q name">  I'm Hashstachetocat. Nice to meet you.What's your name?</p>
+      <p class="q age inv_q">  How old are you? I'm not sure how old I am but i'm old enough to have a mustache. </p>
+      <p class="q color inv_q"> My favorite color is Creamy Coffee Brown. Like my Mustache. What's yours?</p>
+      <p class="q cartoon inv_q"> Wow that is my second favorite. What's your favorite cartoon? I love pretending that I'm a cartoon.</p>
+      <p class="q toy inv_q"> I like playing with my rubics cube cuz I have a huge Prefrontal Cortex. Whats your favorite toy?</p>
 
 </div>
   <div class="qbubble2"></div>
   <div class="qbubble3"></div>
-  <div class="qbubble4"></div>
+  <!-- <div class="qbubble4"></div> -->
   </div>
 </div>
 
@@ -28,28 +28,33 @@
       </ul>
     </div>
   <% end %>
+  <div class="reply name"><p>Reply</p></div>
+  <div class="reply age inv_q"><p>Reply</p></div>
+  <div class="reply color inv_q"><p>Reply</p></div>
+  <div class="reply cartoon inv_q"><p>Reply</p></div>
+  <!-- <div class="reply toy inv_q"><p>Reply</p></div> -->
 
-  <div class="field">
-    <%= f.label :user_cartoon %><br />
+  <div class="field name">
+   <%= f.label :user_name %><br />
     <%= f.text_field :user_name %>
   </div>
-  <div class="field">
-    <%= f.label :user_cartoon %><br />
+  <div class="field age inv_q">
+    <%= f.label :user_age %><br />
     <%= f.text_field :user_age %>
   </div>
-  <div class="field">
-    <%= f.label :user_cartoon %><br />
+  <div class="field color inv_q">
+    <%= f.label :user_color %><br />
     <%= f.text_field :user_color %>
   </div>
-  <div class="field">
+  <div class="field cartoon inv_q">
     <%= f.label :user_cartoon %><br />
     <%= f.text_field :user_cartoon %>
   </div>
-  <div class="field">
+  <div class="field toy inv_q">
     <%= f.label :user_toy %><br />
     <%= f.text_field :user_toy %>
   </div>
-  <div class="field">
+<!--   <div class="field">
     <%= f.label :bf_name %><br />
     <%= f.text_field :bf_name %>
   </div>
@@ -88,8 +93,9 @@
   <div class="field">
     <%= f.label :f_toy %><br />
     <%= f.text_field :f_toy %>
+  </div> -->
+  <div class="actions toy inv_q">
+   <input type="submit" value ="Lets learn more!" class="enter" />
   </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+
 <% end %>
