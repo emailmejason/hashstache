@@ -1,0 +1,86 @@
+.container2{
+  width: 1300px;
+  height: 600px;
+  /*background-color: grey;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.big img{
+  margin-left: 400px  ;
+  margin-right: auto;
+  margin-top: 400px;
+}
+
+.qbubble{
+  width: 450px;
+  height:450px;
+  border: 2px solid black;
+  background-color: white;
+  float: right;
+  font-family: ;
+  font-size: 40px;
+  -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 170px;
+
+}
+.qbubble2{
+  width: 40px;
+  height:40px;
+  border: 2px solid black;
+  background-color: white;
+  float: right;
+  margin-right: 450px;
+  margin-top: -320px;
+  -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 170px;
+}
+
+.qbubble3{
+  width: 40px;
+  height:40px;
+  border: 2px solid black;
+  background-color: white;
+  float: right;
+  margin-right: 400px;
+  margin-top:  -370px;
+  -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 170px;
+}
+
+.qbubble4{
+  width: 40px;
+  height:40px;
+  border: 2px solid black;
+  background-color: white;
+  float: right;
+  margin-right: 350px;
+  margin-top:  -420px;
+  -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 170px;
+}
+.field>input{
+
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto:
+  height: 400px;
+  width: 400px;
+  font-size: 70px;
+  -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 170px;
+}
+
+.inv_q{
+  display: none;
+}
+.q{
+  padding: 70px;
+
+}

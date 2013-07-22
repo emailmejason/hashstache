@@ -1,10 +1,18 @@
-<%= image_tag "Catquestions.png" %>
+<div class="container2">
+  <div class="big"><%= image_tag "Catquestions.png" %>
+    <div class="qbubble">
+      <p class="q inv_q">  I'm Hashstachetocat. Nice to meet you.What's your name?</p>
+      <p class="q inv_q">  How old are you? I'm not sure how old I am but i'm old enough to have a mustache. </p>
+      <p class="q inv_q"> My favorite color is Creamy Coffee Brown. Like my Mustache. What's yours?</p>
+      <p class="q inv_q"> Wow that is my second favorite. What's your favorite cartoon? I love pretending that I'm a cartoon.</p>
+      <p class="q "> I like playing with my rubics cube cuz I have a huge Prefrontal Cortex. Whats your favorite toy?</p>
 
-<p class="q"> What's your name?</p>
-<p class="q">My name is Hashstache.  How old are you?</p>
-<p class="q"> My favorite color is Creamy Coffee Brown. Like my Mustache. What's yours?</p>
-<p class="q"> That's a great color. Probably my second favorite. So what's your favorite cartoon.  I can't move but I look like a cartoon.</p>
-<p class="q"> I like playing my rubics cube cuz I have a huge Superior Frontal Lobe. Whats your favorite toy?</p>
+</div>
+  <div class="qbubble2"></div>
+  <div class="qbubble3"></div>
+  <div class="qbubble4"></div>
+  </div>
+</div>
 
 
 
@@ -22,15 +30,15 @@
   <% end %>
 
   <div class="field">
-
+    <%= f.label :user_cartoon %><br />
     <%= f.text_field :user_name %>
   </div>
   <div class="field">
-
+    <%= f.label :user_cartoon %><br />
     <%= f.text_field :user_age %>
   </div>
   <div class="field">
-
+    <%= f.label :user_cartoon %><br />
     <%= f.text_field :user_color %>
   </div>
   <div class="field">
