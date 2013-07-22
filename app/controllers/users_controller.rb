@@ -4,6 +4,8 @@ class UsersController < ApplicationController
   def page2
   end
 
+  def page3
+  end
   def index
     @users = User.all
     respond_to do |format|
@@ -46,7 +48,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
+        format.html { redirect_to @user }
         format.json { render json: @user, status: :created, location: @user }
       else
         format.html { render action: "new" }

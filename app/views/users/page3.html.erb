@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cool Page</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    <div id= "gmain">
+      <div id="gmaincontainer">
+       <div id= "gbracket" class="bracket draggable" data-question-id="1">{</div>
+    <div id= "gkey" class="draggable" data-question-id="2"><%= image_tag "key.png" %></div>
+    <div id= "grocket" class="rocket draggable" data-question-id="3">=></div>
+    <div id="gtag" class="draggable" data-question-id="4"><%= image_tag "tag1.png" %></div>
+    <div id= "gbracket" class="bracket draggable" data-question-id="5">}</div>
+  </div>
+</div>
+
+
+
+
+<div class="bigbox">
+  <div class="box gbracket1 droppable" data-question-id="1"></div>
+  <div class="box gkey droppable" data-question-id="2"></div>
+  <div class="box grocket droppable" data-question-id="3"></div>
+  <div class="box gvalue droppable" data-question-id="4" ></div>
+  <div class="box gbracket2 droppable" data-question-id="5"></div>
+</div>

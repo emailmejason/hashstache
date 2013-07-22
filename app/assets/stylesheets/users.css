@@ -1,4 +1,4 @@
-body {
+  body {
   background-color:white;
 }
 
@@ -94,7 +94,7 @@ body {
   margin-right: -30px;
   vertical-align: middle;
 }
-#rocket {
+.rocket {
   font-style: arial;
   font-weight: bold;
   font-size:  90px;

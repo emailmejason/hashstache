@@ -41,32 +41,11 @@ $(document).ready(function(){
 
   $("#rocket").on("click", showbracket);
 
-
-// ________________
-    var correct =[]
-  $("div.droppable").droppable({
-      accept: function (elm) {
-          var $this = $(this);
-          if ($this.data("question-id") == elm.data("question-id")){
-              ;
-              return true ;
-
-          }return false;
-      },
-      drop: function(e,ui) {
-          console.log(e, ui);
-          alert("yes");
-          correct.push(1);
-          alert(correct)
-      }
-  });
-
-  $("div.draggable").draggable({
-      revert: "invalid"
   });
 
 
-});
+
+
 
 
 

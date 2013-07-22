@@ -1,0 +1,46 @@
+.example{
+  width: 900px;
+  height:480px;
+  /*border: 2px solid black;*/
+  margin-right: auto;
+  margin-left: 200px;
+  margin-top: 100px;
+  float: left;
+}
+
+.biganswers{
+  margin-top: 200px;
+  float:left;
+}
+
+.hash1{
+position:fixed;
+}
+
+.user{
+  margin-top: 70px;
+  font-size: 50px;
+  position:fixed;
+
+}
+
+.name_v{
+  margin-left: 560px;
+
+}
+
+
+.name_k{
+  margin-left: 190px;
+
+}
+
+.inv_u{
+  display: none;
+}
+
+.words{
+  margin-top: 300px;
+  float:left;
+  font-size: 50px;
+}
