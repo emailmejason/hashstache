@@ -1,5 +1,87 @@
-<h1>New user</h1>
+<%= image_tag "Catquestions.png" %>
 
-<%= render 'form' %>
+<p class="q"> What's your name?</p>
+<p class="q">My name is Hashstache.  How old are you?</p>
+<p class="q"> My favorite color is Creamy Coffee Brown. Like my Mustache. What's yours?</p>
+<p class="q"> That's a great color. Probably my second favorite. So what's your favorite cartoon.  I can't move but I look like a cartoon.</p>
+<p class="q"> I like playing my rubics cube cuz I have a huge Superior Frontal Lobe. Whats your favorite toy?</p>
 
-<%= link_to 'Back', users_path %>
+
+
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+
+    <%= f.text_field :user_name %>
+  </div>
+  <div class="field">
+
+    <%= f.text_field :user_age %>
+  </div>
+  <div class="field">
+
+    <%= f.text_field :user_color %>
+  </div>
+  <div class="field">
+    <%= f.label :user_cartoon %><br />
+    <%= f.text_field :user_cartoon %>
+  </div>
+  <div class="field">
+    <%= f.label :user_toy %><br />
+    <%= f.text_field :user_toy %>
+  </div>
+  <div class="field">
+    <%= f.label :bf_name %><br />
+    <%= f.text_field :bf_name %>
+  </div>
+  <div class="field">
+    <%= f.label :bf_age %><br />
+    <%= f.text_field :bf_age %>
+  </div>
+  <div class="field">
+    <%= f.label :bf_color %><br />
+    <%= f.text_field :bf_color %>
+  </div>
+  <div class="field">
+    <%= f.label :bf_cartoon %><br />
+    <%= f.text_field :bf_cartoon %>
+  </div>
+  <div class="field">
+    <%= f.label :bf_toy %><br />
+    <%= f.text_field :bf_toy %>
+  </div>
+  <div class="field">
+    <%= f.label :f_name %><br />
+    <%= f.text_field :f_name %>
+  </div>
+  <div class="field">
+    <%= f.label :f_age %><br />
+    <%= f.text_field :f_age %>
+  </div>
+  <div class="field">
+    <%= f.label :f_color %><br />
+    <%= f.text_field :f_color %>
+  </div>
+  <div class="field">
+    <%= f.label :f_cartoon %><br />
+    <%= f.text_field :f_cartoon %>
+  </div>
+  <div class="field">
+    <%= f.label :f_toy %><br />
+    <%= f.text_field :f_toy %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

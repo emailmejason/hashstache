@@ -1,10 +1,11 @@
 Solo::Application.routes.draw do
+  get "/page2"=> "users#page2", :as => "page2"
   resources :users
 
 
   resources :answers
 
-  get "/page2"=> "users#page2", :as => "page2"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
