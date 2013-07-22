@@ -15,11 +15,14 @@ body {
   margin-right: auto;
   margin-top: 100px;
   display: table;
+
+  position:relative;
+  left:300px;
 }
 #maincontainer{
   display: table-cell;
   vertical-align: middle;
-  width:960;
+  width:960px;
   height:200px;
 }
 /*  position: absolute;
@@ -30,9 +33,56 @@ body {
 
   margin: auto;
   text-align: center;*/
+#bubble{
+  position:relative;
+  float: right;
+  height:450px;
+  width: 400px;
+  border: 3px solid black;
+  margin-top: 100px;
+  margin-right: 200px;
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 150px;
+}
+
+.smallbubble{
+  position:relative;
+  float: right;
+  height:30px;
+  width: 30px;
+  border: 3px solid black;
+  margin-top: 600px;
+  margin-right: -20px;
+  /*left: -70px;*/
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 120px;
+}
+
+.smallbubble2{
+  position:relative;
+  float: right;
+  height:30px;
+  width: 30px;
+  border: 3px solid black;
+  margin-top: 550px;
+  margin-right: -120px;
+  left: -30px;
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 120px;
+}
+.b{
+  margin-top: 70px;
+  margin-left:20px;
+  font-family: times;
+  font-size: 30px;
+}
 
 
-#bracket {
+
+.bracket {
   font-family: COURIER;
   font-weight: bold;
   color: #ec8305;
@@ -75,19 +125,21 @@ body {
 
 #containertext {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 30px;
   width: 960px;
   height: 500px;
   /*line-height: 500px;*/
-  background-color: ;
+  /*background-color:black ;*/
   display: table;
+  /*background-color: black;*/
+  /*left: 200px;*/
 }
 
 
 .lefttext{
   background-color:#e6e6e6;
   height:250px;
-  width:640px;
+  width:690px;
   font-size: 2em;
   padding-top: 10px;
   padding-bottom:  10px;
@@ -100,18 +152,18 @@ body {
   -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 30px;
-  margin-top: 20px}
-
+  margin-top: 20px;
+  margin-top: 20px;
+}
 .inv{
   display: none;
 
 }
 
 .catbox{
-  background-color:#cccccc;
-  height:250px;
-  width:300px;
-  font-size: 5em;
+  background-color:#EBEBEB;
+  height:270px;
+  width:250px;
   position: relative;
   float: left;
   -moz-border-radius: 10px;
@@ -121,11 +173,16 @@ body {
   margin-top: 20px;
 }
 
-.lefttext > div{
+
+
+
+
+
+/*.lefttext > div{
 
   padding: 30px;
 
-}
+}*/
 
 
 

@@ -8,6 +8,18 @@
 
   </head>
   <body>
+    <div id="bubblecontainer">
+      <div id="bubble">
+        <div class="b onkey inv">Click the key when your done.</div>
+        <div class="b ontag inv">You're doing great. Click the tag to move on.</div>
+        <div class="b onrocket inv">My Hashstache is itchy. Click on the rocket to continue?
+        </div>
+        <div class="b onbracket inv"> <%= link_to 'Fun Fun Fun Fun. Lets take a brake from this and lets get to know each other. Click here when youre ready.', new_user_path %>
+        </div>
+      </div>
+      <div class="smallbubble"></div>
+      <div class="smallbubble2"></div>
+    </div>
 
 
     <div id= "main">
@@ -19,6 +31,8 @@
         <div id= "bracket" class="bracket inv_img">}</div>
       </div>
     </div>
+
+
 
     <div id="containertext">
       <div class="lefttext">
@@ -40,11 +54,12 @@
 
 
       <div class="catbox" >
-        <div id="cat"> <%= image_tag "octocat.png" %> </div>
+        <%= image_tag "octocat.png" %>
       </div>
+
     </div>
 
-<div id="gamepage"> <%= link_to 'Questions', new_user_path %></div>
+<div id="gamepage"></div>
 
 
 
