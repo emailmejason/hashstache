@@ -1,0 +1,171 @@
+body {
+  background-color:white;
+}
+.gametalk{
+  font-family: COURIER;
+  font-weight: bold;
+  color: black;
+  font-size:  45px;
+  margin-left: 50px;
+}
+.congrats{
+  font-family: COURIER;
+  font-weight: bold;
+  color: black;
+  font-size:  105px;
+}
+.box {
+  /*background-color:blue;*/
+  height:100px;
+  width:700px;
+  font-size: 5em;
+  margin-bottom: 00px;
+  float: left;
+  border: 10px;
+    border-color: black;
+    -moz-border-radius: 10px;yyyyyy
+        -webkit-border-radius: 10px;
+        border-radius: 30px;
+
+}
+
+#text {
+  color: #3E8988;
+}
+
+.hide{
+  display:none;}
+
+#point {
+  height:50px;
+  width:100px;
+  background-color:blue;
+}
+
+#backgrounddiv{
+  width: 1100px;
+  height: 500px;
+  line-height: 500px;
+/*  background-color: #CCFFFA;
+*/  border: 10px;
+  border-color: black;
+  -moz-border-radius: 10px;yyyyyy
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+
+
+  position: absolute;
+  top:  px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  text-align: center;
+
+  }
+}
+#background  {
+     margin-left: auto;   margin-right: auto;
+}
+
+.bracket {
+  font-family: COURIER;
+  font-weight: bold;
+  color: #ec8305;
+  font-size:  200px;
+  display:inline-block;
+  margin-bottom: 100px
+}
+
+
+
+
+.rocket {
+  font-style: courier;
+  font-weight: bold;
+  font-size:  200px;
+  display:inline-block;
+}
+
+#tag{
+  display:inline-block;
+}
+
+#key{
+  display:inline-block;
+}
+
+
+.drop1{
+  /*background-color:red;*/
+  height:300px;
+  width:100px;
+  font-size: 5em;
+  float: left;
+  margin-right: ;
+  border: 2px solid black;
+  background-color: #CCFFFA;
+
+
+}
+
+.drop2{
+  /*background-color:green;*/
+  height:300px;
+  width:300px;
+  font-size: 5em;
+  float: left;
+  border: 2px solid black;
+  background-color: #CCFFFA;
+
+}
+
+.drop3{
+  /*background-color:green;*/
+  height:300px;
+  width:100px;
+  font-size: 5em;
+  float: left;
+  border: 2px solid black;
+  background-color: #CCFFFA;
+
+}
+
+.drop4{
+  /*background-color:green;*/
+  height:300px;
+  width:300px;
+  font-size: 5em;
+  float: left;
+  border: 2px solid black;
+  background-color: #CCFFFA;
+
+}
+
+
+.drop5{
+  /*background-color:red;*/
+  height:300px;
+  width:100px;
+  font-size: 5em;
+  float: left;
+  border: 2px solid black;
+  background-color: #CCFFFA;
+
+}
+
+.gamebox{
+  height:350px;
+  width:1200px;
+  /*background-color: pink;*/
+  float:left;
+  margin-right: 100px;
+  margin-left: 370px;
+  margin-top: 100px;
+
+}
+
+.gamecat{
+  float:left;
+}

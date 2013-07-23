@@ -6,6 +6,10 @@ class UsersController < ApplicationController
 
   def page3
   end
+
+  def page4
+  end
+
   def index
     @users = User.all
     respond_to do |format|

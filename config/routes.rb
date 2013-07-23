@@ -1,6 +1,8 @@
 Solo::Application.routes.draw do
   get "/page2"=> "users#page2", :as => "page2"
   get "/page3"=> "users#page3", :as => "page3"
+  get "/page4"=> "users#page4", :as => "page4"
+
   resources :users
 
 
