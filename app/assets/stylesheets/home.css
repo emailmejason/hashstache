@@ -1,0 +1,243 @@
+
+#maincontainer{
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 0px;
+  background-color: white;
+}
+
+
+
+#instructional{
+  /*background-color:pink;*/
+  height:380px;
+  width:720px;
+  float:left;
+}
+
+
+#artcontainer{
+  background-color: #CCFFFA;
+  height:360px;
+  width:720px;
+  margin-top: 10px;
+  margin-left: 10px;
+  /* outer shadows  (note the rgba is red, green, blue, alpha) */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+  /* rounded corners */
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  /* gradients */
+  background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
+
+}
+
+.lefttext{
+  background-color:#CCFFFA;
+  border: 4px solid lightgrey;
+  height:230px;
+  width:470px;
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  /* outer shadows  (note the rgba is red, green, blue, alpha) */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+  /* rounded corners */
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  /* gradients */
+  background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
+
+}
+
+.catbox{
+  background-color:#CCFFFA;
+  border: 4px solid lightgrey;
+  height:230px;
+  width:220px;
+  /*position: relative;*/
+  margin-top: 0px;
+  margin-left: 15px;
+  float: left;
+  position: relative;
+  /* outer shadows  (note the rgba is red, green, blue, alpha) */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+  /* rounded corners */
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  /* gradients */
+  background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
+
+}
+
+.catbox>img{
+  margin-left: -21px;
+  margin-top: -15px;
+}
+
+#bubbleside{
+  /*background-color: orange;*/
+  height: 550px;
+  width: 250px;
+  float: right;
+  margin-right: 5px;
+}
+
+#bubble{
+  background-color: white;
+  height:450px;
+  width:240px;
+  border: 3px solid black;
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 150px;
+  margin-top: 10px;
+}
+
+.smallbubble{
+  background-color: white;
+  margin-top: -20px;
+  margin-left: 20px;
+  height:30px;
+  width: 30px;
+  border: 3px solid black;
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 120px;
+}
+
+.smallbubble2{
+  background-color: white;
+  margin-top: 0px;
+  margin-left: -5px;
+  height:30px;
+  width: 30px;
+  border: 3px solid black;
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 120px;
+}
+
+
+
+.b{
+  margin-top: 70px;
+  margin-left:15px;
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+}
+
+
+.onbracket a {
+  font-family:"Comic Sans MS";
+  font-size: 25px;
+}
+.onbracket a:link {
+  color:black;
+  text-decoration: none;
+
+}
+.onbracket a:visited {
+  color:black;
+  text-decoration: none;
+
+}
+.onbracket a:hover {
+  text-decoration:none;
+  color:grey;
+}
+.onbracket a:active {
+  color:black;
+  text-decoration: none;
+}
+
+
+.l_bracket {
+  font-family: COURIER;
+  font-weight: bold;
+  color: #ec8305;
+  font-size:  200px;
+  display:inline-block;
+  margin-right: -40px;
+  margin-left: 15px;
+  margin-top: 50px;
+  vertical-align: middle;
+  text-shadow: 0px 6px 6px rgba(0,0,0,0.5);
+}
+.r_bracket {
+  font-family: COURIER;
+  font-weight: bold;
+  color: #ec8305;
+  font-size:  200px;
+  display:inline-block;
+  margin-left: -40px;
+  margin-top: 50px;
+  vertical-align: middle;
+  text-shadow: 0px 6px 6px rgba(0,0,0,0.5);
+
+}
+.rocket1{
+  font-family: COURIER;
+  font-weight: bold;
+  font-size:  80px;
+  display:inline-block;
+  margin-top: 90px;
+  vertical-align: middle;
+  text-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+
+}
+
+#tag1{
+  display:inline-block;
+  vertical-align: middle;
+  margin-top: 100px;
+
+}
+
+#key{
+  display:inline-block;
+  vertical-align: middle;
+  margin-top: 100px;
+
+}
+#cat{
+}
+
+.inv_img{
+  visibility: hidden;
+}
+
+/*part of above*/
+/*  border: solid;
+  border-color: black;
+  border-width: 2px;*/
+
+
+
+
+
+
+
+/*
+for Left Text___________________*/
+
+.inv{
+  display: none;
+}
+
+
+.lefttext>div{
+  font-size: 25px;
+  padding: 10px;
+}
+
+
+
+
