@@ -1,5 +1,5 @@
 Solo::Application.routes.draw do
-  get "/page2"=> "users#page2", :as => "page2"
+  get "/home"=> "users#home", :as => "home"
   get "/page3"=> "users#page3", :as => "page3"
   get "/page4"=> "users#page4", :as => "page4"
 
@@ -59,7 +59,7 @@ Solo::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'users#index'
+  root :to => 'users#home'
 
   # See how all your routes lay out with "rake routes"
 

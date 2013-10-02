@@ -27,12 +27,12 @@ $(document).ready(function(){
           correct.push(1);
           // alert(correct)
      if (correct.length==5){
-         alert("congratulations")
+         alert("Congratulations. I told you that you could do it!")
        } }
 
   });
   if (correct.length==2){
-      alert("congratulations")
+      alert("Congratulations.")
     }
   $("div.draggable").draggable({
       revert: "invalid"

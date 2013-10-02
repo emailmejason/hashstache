@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   # GET /users
   # GET /users.json
-  def page2
+  def home
   end
 
   def page3

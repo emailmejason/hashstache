@@ -11,3 +11,93 @@
  *= require_self
  *= require_tree .
  */
+
+ html, body{
+     background-color: #98D1CB;
+ }
+
+#navlogobox{
+   margin: -10px auto;
+   height: 148px;
+   width: 1000px;
+   background-color: white;
+   padding-top: 10px;
+}
+
+ #logo {
+   height:90px;
+   width: 520px;
+   background: url('logo.png');
+   margin-top: -10px;
+   margin-bottom:0;
+   margin-left: auto;
+   margin-right:auto;
+ }
+
+ul{
+   height:40px;
+   width: 520px;
+   /*background-color: #3D9990;*/
+}
+
+ #nav {
+   padding: 0;
+   list-style: none;
+   width: 1000px;
+   padding: 0;
+   list-style: none;
+   background-color: green;
+   border-bottom: 1px solid #ccc;
+   border-top: 1px solid #ccc;
+/*   margin-top: 100px;
+*/   margin-left:  auto;
+   margin-right: auto;
+   margin-top: 0;
+   margin-bottom: 0;
+   background-image: linear-gradient(bottom, #CCFFFA 0%, #CCFFFA 57%, #98D1CB 0%);
+   background-image: -o-linear-gradient(bottom, #CCFFFA 0%, #CCFFFA 57%, #98D1CB 0%);
+   background-image: -moz-linear-gradient(bottom, #CCFFFA 0%, #CCFFFA 57%, #98D1CB 0%);
+   background-image: -webkit-linear-gradient(bottom, #CCFFFA 0%, #CCFFFA 57%, #98D1CB 0%);
+   background-image: -ms-linear-gradient(bottom, #CCFFFA 0%, #CCFFFA 57%, #98D1CB 0%);
+
+   background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, #CCFFFA),
+      color-stop(0.57, #CCFFFA),
+      color-stop(0, #98D1CB)
+   );
+ }
+
+ #nav li {
+   float: right;
+   display: block;
+   padding: 3px 8px;
+   text-decoration: none;
+   font-weight: bold;
+   color: #069;
+   border-right: 1px solid #ccc; }
+
+ #nav li a {
+   font-family:"Comic Sans MS";
+   font-size:20px;
+ }
+ #nav li a:link {
+   color:black;
+   text-decoration: none;
+
+ }
+ #nav li a:visited {
+   color:black;
+   text-decoration: none;
+
+ }
+ #nav li a:hover {
+   text-decoration:none;
+   color:grey;
+ }
+ #nav li a:active {
+   color:black;
+   text-decoration: none;
+ }

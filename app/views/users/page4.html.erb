@@ -1,19 +1,19 @@
-
+  <div id="maincontainer">
     <p class="congrats hide" >YOU DID! you are a master at HASHES!</p>
-    <p class="gametalk">Put the hash in the correct order.  I know you can do it!</p>
+
 
     <div id= "backgrounddiv">
 
 
-      <div class="bracket draggable" data-question-id="5">}</div>
+      <div class="g_bracket draggable" data-question-id="5">}</div>
 
-      <div id="tag" class="draggable" data-question-id="4"><%= image_tag "tag.png" %></div>
+      <div id="g_tag" class="draggable" data-question-id="4"><%= image_tag "tag.png" %></div>
 
-      <div class="bracket draggable" data-question-id="1">{</div>
+      <div class="g_lbracket draggable" data-question-id="1">{</div>
 
-      <div id= "key" class="draggable" data-question-id="2"><%= image_tag "key4.png" %></div>
+      <div id= "g_key" class="draggable" data-question-id="2"><%= image_tag "key4.png" %></div>
 
-      <div class="rocket draggable" data-question-id="3">=></div>
+      <div class="g_rocket draggable" data-question-id="3">=></div>
 
     </div>
 
@@ -25,11 +25,18 @@
       <div class="drop5 droppable" data-question-id="5"></div>
     </div>
 
+  <div>
     <div id="gamecat">
       <%= image_tag "octocat.png" %>
     </div>
+    <div id="g_bubble">
+      <p class="gametalk">What does a hash look like? Drag and Drop each element to its correct place. I know you can do it!</p>
+      <div class="g_smallbubble"></div>
+      <div class="g_smallbubble2"></div>
 
-
+    </div>
+  </div>
+</div>
 
 
 

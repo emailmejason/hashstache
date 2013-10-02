@@ -4,6 +4,7 @@ $(document).ready(function(){
     $("#key").removeClass("inv_img");
     $("#text_key").removeClass("inv");
     $(".onkey").removeClass("inv");
+    // $(".catbox").removeAttr('id')
     // $( "#text_key" ).show( "bounce", 1000 );
   };
 
@@ -11,7 +12,7 @@ $(document).ready(function(){
 
 
   var showtag = function(){
-    $("#tag").removeClass("inv_img");
+    $("#tag1").removeClass("inv_img");
     $("#text_key").addClass("inv");
     $("#text_tag").removeClass("inv");
     $(".ontag").removeClass("inv");
@@ -28,11 +29,12 @@ $(document).ready(function(){
     $(".ontag").addClass("inv");
   };
 
-  $("#tag").on("click", showrocket);
 
+  $("#tag1").on("click", showrocket);
 
   var showbracket = function(){
-    $(".bracket").removeClass("inv_img");
+    $(".l_bracket").removeClass("inv_img");
+    $(".r_bracket").removeClass("inv_img");
     $("#text_rocket").addClass("inv");
     $("#text_bracket").removeClass("inv");
     $(".onbracket").removeClass("inv");

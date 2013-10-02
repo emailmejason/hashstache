@@ -10,7 +10,7 @@ $(document).ready(function(){
     $(".aa").removeClass("inv_u");
   };
 
-  $(".hash1").on("click",s);
+  $(".rocket1").on("click",s);
 
   var t = function(){
     $(".aa").addClass("inv_u");

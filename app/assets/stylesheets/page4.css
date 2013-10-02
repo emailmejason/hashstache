@@ -1,13 +1,4 @@
-body {
-  background-color:white;
-}
-.gametalk{
-  font-family: COURIER;
-  font-weight: bold;
-  color: black;
-  font-size:  45px;
-  margin-left: 50px;
-}
+
 .congrats{
   font-family: COURIER;
   font-weight: bold;
@@ -43,129 +34,293 @@ body {
 }
 
 #backgrounddiv{
-  width: 1100px;
-  height: 500px;
-  line-height: 500px;
-/*  background-color: #CCFFFA;
-*/  border: 10px;
-  border-color: black;
-  -moz-border-radius: 10px;yyyyyy
-      -webkit-border-radius: 10px;
-      border-radius: 30px;
+  width: 1000px;
+  height: 180px;
+  line-height: 200px;
+  background-color: white;
 
 
-  position: absolute;
-  top:  px;
   bottom: 0px;
   left: 0;
   right: 0;
 
-  margin: auto;
-  text-align: center;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 40px;
+/*  text-align: center;
+*/
   }
 }
 #background  {
-     margin-left: auto;   margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bracket {
+.g_bracket {
   font-family: COURIER;
   font-weight: bold;
   color: #ec8305;
   font-size:  200px;
   display:inline-block;
-  margin-bottom: 100px
+  margin-bottom: 00px;
+  z-index: 1;
+  position:absolute;
+  right: 1200px;
 }
 
-
-
-
-.rocket {
-  font-style: courier;
+.g_lbracket {
+  font-family: COURIER;
   font-weight: bold;
+  color: #ec8305;
   font-size:  200px;
   display:inline-block;
+  margin-bottom: 00px;
+  z-index: 1;
+  position:absolute;
+  right: 1000px;
+
 }
 
-#tag{
+
+
+.g_rocket {
+  font-family: courier;
+  font-weight: bold;
+  font-size:  80px;
   display:inline-block;
+  z-index: 1;
+  position:absolute;
+  right: 1100px;
 }
 
-#key{
+#g_tag{
   display:inline-block;
+  z-index: 1;
+  position:absolute;
+  right: 400px;
+
+
+}
+
+#g_key{
+  display:inline-block;
+  height: 100px;
+  z-index: 1;
+  position:absolute;
+  right: 700px;
+
 }
 
 
 .drop1{
   /*background-color:red;*/
-  height:300px;
-  width:100px;
+  height:250px;
+  width:120px;
   font-size: 5em;
   float: left;
-  margin-right: ;
-  border: 2px solid black;
+
+  /*border: 2px solid black;*/
   background-color: #CCFFFA;
+  margin-right: 10px;
+  margin-left: 20px;
+
+  /*position: relative;*/
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  position: relative;
+  /* outer shadows  (note the rgba is red, green, blue, alpha) */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+  /* rounded corners */
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  /* gradients */
+  background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
 
 
 }
 
 .drop2{
-  /*background-color:green;*/
-  height:300px;
-  width:300px;
+  background-color:green;
+  height:250px;
+  width:270px;
   font-size: 5em;
   float: left;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   background-color: #CCFFFA;
+  margin-right: 10px;
+
+  /*position: relative;*/
+  margin-top: 0px;
+  margin-left: 5px;
+  float: left;
+  position: relative;
+  /* outer shadows  (note the rgba is red, green, blue, alpha) */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+  /* rounded corners */
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  /* gradients */
+  background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
+
 
 }
 
 .drop3{
-  /*background-color:green;*/
-  height:300px;
-  width:100px;
+  background-color:green;
+  height:250px;
+  width:120px;
   font-size: 5em;
   float: left;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   background-color: #CCFFFA;
+
+
+  /*position: relative;*/
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  position: relative;
+  /* outer shadows  (note the rgba is red, green, blue, alpha) */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+  /* rounded corners */
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  /* gradients */
+  background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
+
 
 }
 
 .drop4{
   /*background-color:green;*/
-  height:300px;
-  width:300px;
+  height:250px;
+  width:275px;
   font-size: 5em;
   float: left;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   background-color: #CCFFFA;
+  margin-right: 10px;
+
+  /*position: relative;*/
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  position: relative;
+  /* outer shadows  (note the rgba is red, green, blue, alpha) */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+  /* rounded corners */
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  /* gradients */
+  background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
 
 }
 
 
 .drop5{
   /*background-color:red;*/
-  height:300px;
-  width:100px;
+  height:250px;
+  width:120px;
   font-size: 5em;
   float: left;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   background-color: #CCFFFA;
+  margin-right: px;
+
+  /*position: relative;*/
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  position: relative;
+  /* outer shadows  (note the rgba is red, green, blue, alpha) */
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+  /* rounded corners */
+  -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 30px;
+  /* gradients */
+  background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
+
 
 }
 
 .gamebox{
-  height:350px;
-  width:1200px;
+  height:265px;
+  width:1000px;
+  background-color: white;
+
+
   /*background-color: pink;*/
-  float:left;
-  margin-right: 100px;
+  /*float:left;*/
+  /*margin-right: 100px;
   margin-left: 370px;
   margin-top: 100px;
-
+*/
 }
 
-.gamecat{
+#gamecat{
   float:left;
+  height:400px;
+  width: 300px;
+}
+
+#g_bubble{
+  background-color: white;
+  height:200px;
+  width:500px;
+  border: 3px solid black;
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 150px;
+  margin-top: 10px;
+  margin-right: 150px;
+  float:right;
+}
+
+.g_smallbubble{
+  background-color: white;
+  margin-top: 70px;
+  margin-left: -50px;
+  height:30px;
+  width: 30px;
+  border: 3px solid black;
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 120px;
+  float:left;
+}
+
+.g_smallbubble2{
+  background-color: white;
+  margin-top: 100px;
+  margin-left: -90px;
+  height:30px;
+  width: 30px;
+  border: 3px solid black;
+  -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+      border-radius: 120px;
+  float:left;
+}
+
+.gametalk{
+  height:150px;
+  width: 400px;
+  font-family:"Comic Sans MS";
+  font-size: 25px;
+  color: black;
+  float:right;
+  margin:20px 25px 10px 5px;
 }

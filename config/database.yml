@@ -3,8 +3,8 @@ development:
   encoding: unicode
   database: solo_development
   pool: 5
-  username: admin
-  password:
+  username: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PASS'] %>
   host: localhost
 
 
@@ -15,8 +15,8 @@ test:
   encoding: unicode
   database: solo_test
   pool: 5
-  username: admin
-  password:
+  username: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PASS'] %>
   host: localhost
 
 production:
@@ -24,6 +24,6 @@ production:
   encoding: unicode
   database: solo_production
   pool: 5
-  username: admin
-  password:
+  username: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PASS'] %>
   host: localhost

@@ -7,10 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <div id="navlogobox">
+    <div id="logo"></div>
+    <ul id="nav">
+      <li><a href="#">html</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">javascript</a></li>
+      <li><a href="#">ruby</a></li>
+      <li><a href="#">about</a></li>
+    </ul>
+  </div>
 <%= yield %>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-<script src="js/script.js"></script>
 
 </body>
 </html>

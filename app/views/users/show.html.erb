@@ -1,62 +1,52 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Cool Page</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
-    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-<div class="example">
-  <div class="nn hash1 "><%= image_tag "hash.png" %></div>
-  <p class="nn user name_v ">
-    <%= @user.user_name %></p>
-  <p class="nn user name_k ">
-    name</p>
-  <div class="nn words "> Look at that.  A hash with your name in it!! Neato!  It has a key of name and a value of  <%= @user.user_name %>. Click on the rocket.</div>
+<div id="maincontainer">
 
-  <div class="aa hash1 inv_u"><%= image_tag "hash.png" %></div>
-  <p class="aa user name_v inv_u">
-    <%= @user.user_age %>
-  </p>
-  <p class="aa user name_k inv_u">
-    age
-  </p>
-  <div class="aa words inv_u"> Here's one that has your age as the value and a key of the word age  <%= @user.user_age %>. Click on the exclamation points!!</div>
+  <div id= "instructional">
+    <div id="artcontainer">
+      <div id= "bracket" class="l_bracket">{</div>
+      <div id= "key" ><%= image_tag "key.png" %></div>
+      <div id= "rocket" class="rocket1">=></div>
+      <div id="tag1"><%= image_tag "tag1.png" %></div>
+      <div id= "bracket" class="r_bracket">}</div>
+
+      <p class="nn user name_k ">Name</p>
+      <p class="nn user name_v "><%= @user.user_name %></p>
 
 
 
+      <p class="aa user name_k inv_u">age</p>
+      <p class="aa user name_v inv_u"><%= @user.user_age %></p>
 
 
-  <div class="cc hash1 inv_u"><%= image_tag "hash.png" %></div>
-  <p class="cc user name_v inv_u">
-    <%= @user.user_color %>
-  </p>
-  <p class="cc user name_k inv_u">
-    color
-  </p>
-  <div class="cc words inv_u"> Look. it is your favorite color <%= @user.user_color %>. <%= link_to 'click me', page4_path%></div> .</div>
+      <p class="cc user name_k inv_u">color</p>
+      <p class="cc user name_v inv_u"><%= @user.user_color %></p>
 
 
-  <div class="oo hash1 inv_u"><%= image_tag "hash.png" %></div>
-  <p class="oo user name_v inv_u">
-    <%= @user.user_cartoon %>
-  </p>
-  <p class="oo user name_k inv_u">
-    cartoon
-  </p>
-  <div class="oo words inv_u"> Another one. Click this-->  <%= @user.user_cartoon %> .</div>
+      <p class="oo user name_k inv_u">cartoon</p>
+      <p class="oo user name_v inv_u"><%= @user.user_cartoon %></p>
 
 
-  <div class="tt hash1 inv_u"><%= image_tag "hash.png" %></div>
-  <p class="tt user name_v inv_u">
-    <%= @user.user_toy %>
-  </p>
-  <p class="tt user name_k inv_u">
-    toy
-  </p>
-  <div class="tt words inv_u"> Look at that.  A hash with your name in it!! Neato!  It has a key of name and a value of  <%= @user.user_name %> .</div>
+      <p class="tt user name_k inv_u">toy</p>
+      <p class="tt user name_v inv_u"><%= @user.user_toy %></p>
+    </div>
+  </div>
+
+  <div id="bubbleside">
+    <div id="bubble"></div>
+    <div class="smallbubble"></div>
+    <div class="smallbubble2"></div>
+  </div>
+
+  <div class="lefttext">
+    <div class="nn words "> Look at that.  A hash with your name in it!! Neato!  It has a key of name and a value of  <%= @user.user_name %>. Click on the rocket.</div>
+    <div class="aa words inv_u"> Here's one that has your age as the value and a key of the word age  <%= @user.user_age %>. Click on the exclamation points!!</div>
+    <div class="cc words inv_u"> Look. it is your favorite color <%= @user.user_color %>. <%= link_to 'click me', page4_path%></div>
+    <div class="oo words inv_u"> Another one. Click this-->  <%= @user.user_cartoon %> .</div>
+    <div class="tt words inv_u"> Look at that.  A hash with your name in it!! Neato!  It has a key of name and a value of  <%= @user.user_name %> .</div>
+  </div>
+  <div class="catbox" >
+    <%= image_tag "octocat.png" %>
+  </div>
 
 </div>
-<div class="biganswers"><%= image_tag "Catquestions.png" %>
+
 
