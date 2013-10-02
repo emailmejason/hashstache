@@ -124,4 +124,4 @@ DEPENDENCIES
   pry-debugger
   pry-rails
   rails (= 3.2.13)
-  unicorn (~> 4.6.3)
+  unicorn
